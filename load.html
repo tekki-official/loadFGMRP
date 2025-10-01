@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>SCP Roleplay</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      /* Lila Toon Hintergrund mit Verlauf */
+      background: linear-gradient(135deg, #2e0a3f, #7d3cff);
+      color: #e0e0e0;
+    }
+    h1, h2 {
+      color: #b47aff; /* lila */
+    }
+    .header {
+      text-align: center;
+      padding: 40px 20px 20px 20px;
+    }
+    .header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .header p {
+      color: #d9a0ff; /* lila hell */
+      margin: 5px 0 0 0;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .card {
+      flex: 1;
+      min-width: 300px;
+      background: rgba(17,17,17,0.9);
+      border: 1px solid #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(180, 122, 255, 0.2);
+    }
+    .card h2 {
+      margin-top: 0;
+    }
+    .card p {
+      color: #ccc;
+    }
+    .btn {
+      display: block;
+      background: #330066;
+      color: #b47aff;
+      text-align: center;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #550099;
+    }
+    /* Team Section */
+    .team {
+      background: rgba(17,17,17,0.9);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(180, 122, 255, 0.15);
+    }
+    .team-members {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .team-member {
+      background: #0e0e0e;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      flex: 1 1 120px;
+      max-width: 150px;
+    }
+    .team-member img {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      border: none;
+      margin-bottom: 10px;
+    }
+    .team-member h3 {
+      margin: 0;
+      font-size: 1em;
+      color: #b47aff;
+    }
+    .team-member p {
+      margin: 2px 0 0 0;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+    @media (max-width: 600px) {
+      .team-members {
+        gap: 10px;
+      }
+      .team-member {
+        max-width: 45%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>SCP ROLEPLAY</h1>
+    <p>by Fire-Gaming</p>
+  </div>
+
+  <div class="container">
+    <!-- Info Cards -->
+    <div class="card-row">
+      <div class="card">
+        <h2>• Secure. Contain. Protect.</h2>
+        <p>
+          Hier entscheiden Mut, Strategie und Zusammenarbeit über Erfolg oder Misserfolg. 
+          Tauche ein in eine Welt voller Geheimnisse und Gefahren, wo jede Entscheidung Konsequenzen hat.
+        </p>
+        <a href="#" class="btn">scp_site_85_v2_FG</a>
+        <a href="#" class="btn" id="joinTime">Vor 0 Sekunden beigetreten</a>
+      </div>
+      <div class="card">
+        <h2>• Wir sind Fire-Gaming</h2>
+        <p>
+          Deine Serious Roleplay Community mit Schwerpunkt auf Garry's Mod. Durch eigens erstellte Inhalte und eine aktive Community 
+          heben wir deinen Spielspaß auf die nächste Stufe.
+        </p>
+        <a href="https://discord.gg/" class="btn">discord.gg/xyz</a>
+        <a href="ts3server://ts.fire-gaming.de" class="btn">ts.fire-gaming.de</a>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <div class="team">
+      <h2>• Unser Team</h2>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="https://cdn.discordapp.com/attachments/1356339276367008036/1406421441783791656/firegaming.png?ex=68a26789&is=68a11609&hm=e2a5d2bfe76cbc59f45fe8fbe937ada346d37df716db31742e34ccbc8d05066d&" alt="Owner">
+          <h3>[FG] Tekki [MG]</h3>
+          <p>Community Leitung (Main Owner)</p>
+        </div>
+        <div class="team-member">
+          <img src="https://cdn.discordapp.com/attachments/1356339276367008036/1406421441783791656/firegaming.png?ex=68a26789&is=68a11609&hm=e2a5d2bfe76cbc59f45fe8fbe937ada346d37df716db31742e34ccbc8d05066d&" alt="Community Manager">
+          <h3>[FG] LeonTekki [MG]</h3>
+          <p>Community Leitung</p>
+        </div>
+        <div class="team-member">
+          <img src="https://cdn.discordapp.com/attachments/1356339276367008036/1406421441783791656/firegaming.png?ex=68a26789&is=68a11609&hm=e2a5d2bfe76cbc59f45fe8fbe937ada346d37df716db31742e34ccbc8d05066d&" alt="Community Manager">
+          <h3>BenBz2023</h3>
+          <p>Supporter</p>  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const joinTime = document.getElementById("joinTime");
+    let seconds = 0;
+
+    function formatTime(seconds) {
+      if (seconds < 60) return `Vor ${seconds} Sekunden beigetreten`;
+      let minutes = Math.floor(seconds / 60);
+      if (minutes < 60) return `Vor ${minutes} Minute${minutes > 1 ? 'n' : ''} beigetreten`;
+      let hours = Math.floor(minutes / 60);
+      if (hours < 24) return `Vor ${hours} Stunde${hours > 1 ? 'n' : ''} beigetreten`;
+      let days = Math.floor(hours / 24);
+      return `Vor ${days} Tag${days > 1 ? 'en' : ''} beigetreten`;
+    }
+
+    setInterval(() => {
+      seconds++;
+      joinTime.textContent = formatTime(seconds);
+    }, 1000);
+  </script>
+</body>
+</html>
